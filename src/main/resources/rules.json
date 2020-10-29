@@ -1,0 +1,12 @@
+[
+		{
+			"name" : "Dealer_Admin_Role",
+			"description" : "Only dealer admins can perform this action",
+			"expression" : "role == 'dealer_admin'"
+		},
+		{
+			"name" : "Record_Source_Webapp",
+			"description" : "Record source webapp",
+			"expression" : "recordSource == 'webapp'"
+		}
+]	
